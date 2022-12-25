@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=77 format=3 uid="uid://c1cc7uj1rrsvj"]
+[gd_resource type="Theme" load_steps=78 format=3 uid="uid://c1cc7uj1rrsvj"]
 
 [ext_resource type="Texture2D" uid="uid://bb172hqq61jkl" path="res://assets/Vertex-Dark/gtk-2.0/Buttons/button-insensitive.png" id="1_510y8"]
 [ext_resource type="Texture2D" uid="uid://dlsutr067y44i" path="res://assets/Vertex/gtk-3.0/borders/button-focused-border-dark.png" id="2_k7ppl"]
@@ -175,6 +175,20 @@ margin_top = 8.0
 margin_right = 12.0
 margin_bottom = 12.0
 region_rect = Rect2(0, 0, 66, 300)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fyacm"]
+bg_color = Color(0.25098, 0.25098, 0.254902, 1)
+border_width_left = 6
+border_width_top = 12
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.290196, 0.290196, 0.301961, 1)
+border_blend = true
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+shadow_size = 2
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j8rk6"]
 content_margin_left = 6.0
@@ -361,6 +375,7 @@ PopupMenu/icons/submenu = ExtResource("25_xljca")
 PopupMenu/icons/submenu_mirrored = ExtResource("26_i8xhe")
 PopupMenu/icons/unchecked = ExtResource("11_mvgje")
 PopupMenu/icons/unchecked_disabled = ExtResource("12_q2gq1")
+PopupMenu/styles/hover = SubResource("StyleBoxFlat_fyacm")
 PopupMenu/styles/panel = SubResource("StyleBoxFlat_j8rk6")
 ProgressBar/styles/background = SubResource("StyleBoxTexture_3syxj")
 ProgressBar/styles/fill = SubResource("StyleBoxTexture_gaqoq")

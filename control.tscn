@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://cxnwgy23vl1nw"]
+[gd_scene load_steps=5 format=3 uid="uid://cxnwgy23vl1nw"]
 
 [ext_resource type="Theme" uid="uid://c1cc7uj1rrsvj" path="res://non-flat.tres" id="1_xpymi"]
+[ext_resource type="Theme" uid="uid://n30ebudwlnfa" path="res://sampletheem.tres" id="2_21chl"]
+[ext_resource type="Script" path="res://TabContainer.gd" id="2_voyuh"]
+[ext_resource type="Theme" uid="uid://bl8giu3cybjau" path="res://generateed/vertex.res" id="3_0xnka"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -17,6 +20,8 @@ offset_top = 199.0
 offset_right = 570.0
 offset_bottom = 403.0
 theme = ExtResource("1_xpymi")
+script = ExtResource("2_voyuh")
+generated_theme = ExtResource("3_0xnka")
 
 [node name="CheckBox" type="CheckBox" parent="TabContainer"]
 layout_mode = 2
@@ -30,6 +35,29 @@ visible = false
 layout_mode = 2
 
 [node name="Button3" type="Button" parent="TabContainer"]
+visible = false
+layout_mode = 2
+
+[node name="TabContainer2" type="TabContainer" parent="."]
+layout_mode = 1
+offset_left = -2.0
+offset_top = 367.0
+offset_right = 266.0
+offset_bottom = 571.0
+theme = ExtResource("2_21chl")
+
+[node name="CheckBox" type="CheckBox" parent="TabContainer2"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="TabContainer2"]
+visible = false
+layout_mode = 2
+
+[node name="Button2" type="Button" parent="TabContainer2"]
+visible = false
+layout_mode = 2
+
+[node name="Button3" type="Button" parent="TabContainer2"]
 visible = false
 layout_mode = 2
 
