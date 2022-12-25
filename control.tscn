@@ -1,0 +1,39 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxnwgy23vl1nw"]
+
+[ext_resource type="Theme" uid="uid://c1cc7uj1rrsvj" path="res://non-flat.tres" id="1_xpymi"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TabContainer" type="TabContainer" parent="."]
+layout_mode = 0
+offset_left = 302.0
+offset_top = 199.0
+offset_right = 570.0
+offset_bottom = 403.0
+theme = ExtResource("1_xpymi")
+
+[node name="CheckBox" type="CheckBox" parent="TabContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="TabContainer"]
+visible = false
+layout_mode = 2
+
+[node name="Button2" type="Button" parent="TabContainer"]
+visible = false
+layout_mode = 2
+
+[node name="Button3" type="Button" parent="TabContainer"]
+visible = false
+layout_mode = 2
+
+[node name="TextureButton" type="TextureButton" parent="."]
+layout_mode = 0
+offset_right = 18.0
+offset_bottom = 16.0

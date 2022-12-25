@@ -1,0 +1,387 @@
+[gd_resource type="Theme" load_steps=77 format=3 uid="uid://c1cc7uj1rrsvj"]
+
+[ext_resource type="Texture2D" uid="uid://bb172hqq61jkl" path="res://assets/Vertex-Dark/gtk-2.0/Buttons/button-insensitive.png" id="1_510y8"]
+[ext_resource type="Texture2D" uid="uid://dlsutr067y44i" path="res://assets/Vertex/gtk-3.0/borders/button-focused-border-dark.png" id="2_k7ppl"]
+[ext_resource type="Texture2D" uid="uid://d0g6ign2p676a" path="res://assets/Vertex-Dark/gtk-2.0/Buttons/button-prelight.png" id="3_s88r5"]
+[ext_resource type="Texture2D" uid="uid://c6fxsv37x3bmk" path="res://assets/Vertex-Dark/gtk-2.0/Buttons/button-default.png" id="4_y4vil"]
+[ext_resource type="Texture2D" uid="uid://bquh030h5dsld" path="res://assets/Vertex-Dark/gtk-2.0/Buttons/button-pressed.png" id="5_1q7hu"]
+[ext_resource type="Texture2D" uid="uid://07j6r8gaxac" path="res://assets/Vertex-Dark/gtk-2.0/Check-Radio/menu-checkbox-checked.png" id="6_5o1g7"]
+[ext_resource type="Texture2D" uid="uid://fhjnip35ru8m" path="res://assets/Vertex-Dark/gtk-2.0/Check-Radio/menu-checkbox-checked-insensitive.png" id="7_rbdma"]
+[ext_resource type="Texture2D" uid="uid://dx46dpd0g3nel" path="res://assets/Vertex-Dark/gtk-2.0/Check-Radio/menu-option-checked.png" id="8_61j3r"]
+[ext_resource type="Texture2D" uid="uid://dmltk3hwmsxwp" path="res://assets/Vertex-Dark/gtk-2.0/Check-Radio/option-checked-insensitive.png" id="9_tm32d"]
+[ext_resource type="Texture2D" uid="uid://cs4vd6j5wl4dk" path="res://assets/Vertex-Dark/gtk-2.0/Check-Radio/menu-option-unchecked.png" id="10_8smsu"]
+[ext_resource type="Texture2D" uid="uid://bt26bemswongm" path="res://assets/Vertex-Dark/gtk-2.0/Check-Radio/menu-checkbox-unchecked.png" id="11_mvgje"]
+[ext_resource type="Texture2D" uid="uid://ck8h7vwus53md" path="res://assets/Vertex-Dark/gtk-2.0/Check-Radio/menu-checkbox-unchecked-insensitive.png" id="12_q2gq1"]
+[ext_resource type="Texture2D" uid="uid://b2od5ts2urrpg" path="res://assets/Vertex/gnome-shell/assets/switch/switch-on.svg" id="14_81q27"]
+[ext_resource type="Texture2D" uid="uid://c5vvlvwgq2cm2" path="res://assets/Vertex-Dark/gtk-2.0/Range/slider-horiz.png" id="15_2aajd"]
+[ext_resource type="Texture2D" uid="uid://y6d3ut3haprp" path="res://assets/Vertex/gnome-shell/assets/switch/switch-off.svg" id="15_dv20r"]
+[ext_resource type="Texture2D" uid="uid://b1uo7fqvnsgd3" path="res://assets/Vertex-Dark/gtk-2.0/Scrollbars/slider-horiz.png" id="15_ee2j0"]
+[ext_resource type="Texture2D" uid="uid://v2lfyjvjtjcb" path="res://assets/Vertex-Dark/gtk-2.0/Scrollbars/slider-horiz-prelight.png" id="16_qr78o"]
+[ext_resource type="Texture2D" uid="uid://bd8884qqlt0bb" path="res://assets/Vertex/gnome-shell/assets/entry/entry-border-focused.svg" id="16_tydw3"]
+[ext_resource type="Texture2D" uid="uid://b8qq7h7y6lna7" path="res://assets/Vertex-Dark/gtk-2.0/Range/slider-horiz-prelight.png" id="16_v5735"]
+[ext_resource type="Texture2D" uid="uid://cfid25h8wsxfp" path="res://assets/Vertex-Dark/gtk-2.0/Range/trough-horizontal.png" id="17_4xlau"]
+[ext_resource type="Texture2D" uid="uid://cl12vmk2og8r0" path="res://assets/Vertex/gnome-shell/assets/entry/entry-border.svg" id="17_anr16"]
+[ext_resource type="Texture2D" uid="uid://bsg7g0yk4hgws" path="res://assets/Vertex-Dark/gtk-2.0/Scrollbars/slider-horiz-active.png" id="17_jhdnk"]
+[ext_resource type="Texture2D" uid="uid://c7j87wh1yv7ol" path="res://assets/Vertex/gnome-shell/assets/entry/entry-border-insensitive.svg" id="18_7ly1t"]
+[ext_resource type="Texture2D" uid="uid://b5ek060ysocfp" path="res://assets/Vertex-Dark/gtk-2.0/Handles/handle-v.png" id="18_7nwlj"]
+[ext_resource type="Texture2D" uid="uid://w34mmgimvnmj" path="res://assets/Vertex-Dark/gtk-2.0/Scrollbars/trough-scrollbar-horiz.png" id="18_gw8pf"]
+[ext_resource type="Texture2D" uid="uid://b8nfcbj0asj63" path="res://assets/Vertex-Dark/gtk-2.0/Check-Radio/menu-option-checked-insensitive.png" id="23_et4fa"]
+[ext_resource type="Texture2D" uid="uid://ch743e6sfw3dl" path="res://assets/Vertex-Dark/gtk-2.0/Check-Radio/menu-option-unchecked-insensitive.png" id="24_p5cg7"]
+[ext_resource type="Texture2D" uid="uid://boeq4xinkym6" path="res://assets/Vertex-Dark/gtk-2.0/Arrows/arrow-right.png" id="25_xljca"]
+[ext_resource type="Texture2D" uid="uid://dlt0txg8fuur" path="res://assets/Vertex-Dark/gtk-2.0/Arrows/arrow-left.png" id="26_i8xhe"]
+[ext_resource type="Texture2D" uid="uid://bol53tskuel45" path="res://assets/Vertex-Dark/gtk-2.0/ProgressBar/trough-progressbar.png" id="27_rsxdk"]
+[ext_resource type="Texture2D" uid="uid://dt0nd5iymxvku" path="res://assets/Vertex-Dark/gtk-2.0/ProgressBar/progressbar.png" id="28_s2fkj"]
+[ext_resource type="Texture2D" uid="uid://sfgkovf6ovmp" path="res://assets/Vertex-Dark/gtk-2.0/Tabs/tab-top-active.png" id="29_n45su"]
+[ext_resource type="Texture2D" uid="uid://jl6artsw4r5k" path="res://assets/Vertex-Dark/gtk-2.0/Tabs/tab-top.png" id="30_4gfd4"]
+[ext_resource type="Texture2D" uid="uid://ds0avoa352oe2" path="res://assets/Vertex-Dark/gtk-2.0/Expanders/minus.png" id="31_2fowq"]
+[ext_resource type="Texture2D" uid="uid://dm2v8k5fuqcwb" path="res://assets/Vertex-Dark/gtk-2.0/Range/trough-vertical.png" id="32_8isqb"]
+[ext_resource type="Texture2D" uid="uid://semkut8hrko5" path="res://assets/Vertex-Dark/gtk-2.0/Scrollbars/slider-vert.png" id="32_f0xpv"]
+[ext_resource type="Texture2D" uid="uid://b7uctrcyhdc1f" path="res://assets/Vertex-Dark/gtk-2.0/Range/slider-vert.png" id="32_pjgx8"]
+[ext_resource type="Texture2D" uid="uid://vgfkp06nry3" path="res://assets/Vertex/gnome-shell/assets/menu/menu.svg" id="32_sgp54"]
+[ext_resource type="Texture2D" uid="uid://45wt7xhqv4vb" path="res://assets/Vertex-Dark/gtk-2.0/Scrollbars/trough-scrollbar-vert.png" id="32_wsdu1"]
+[ext_resource type="Texture2D" uid="uid://52yxayvyjilr" path="res://assets/Vertex-Dark/gtk-2.0/Range/slider-vert-prelight.png" id="33_cf0pt"]
+[ext_resource type="Texture2D" uid="uid://dy8ihqrr2ptut" path="res://assets/Vertex-Dark/gtk-2.0/Scrollbars/slider-vert-prelight.png" id="33_i1wok"]
+[ext_resource type="Texture2D" uid="uid://ls0qq7feodhx" path="res://assets/Vertex-Dark/gtk-2.0/Scrollbars/slider-vert-active.png" id="34_egico"]
+[ext_resource type="Texture2D" uid="uid://cdv1ys4vxrlo3" path="res://assets/Vertex-Dark/gtk-2.0/Handles/handle-h.png" id="35_k7lhb"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ycyyd"]
+texture = ExtResource("1_510y8")
+margin_left = 6.0
+margin_top = 4.0
+margin_right = 6.0
+margin_bottom = 4.0
+region_rect = Rect2(0, 0, 18, 16)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ik8pt"]
+texture = ExtResource("2_k7ppl")
+margin_left = 6.0
+margin_top = 4.0
+margin_right = 6.0
+margin_bottom = 4.0
+region_rect = Rect2(0, 0, 18, 17)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5ojyu"]
+texture = ExtResource("3_s88r5")
+margin_left = 6.0
+margin_top = 4.0
+margin_right = 6.0
+margin_bottom = 4.0
+region_rect = Rect2(0, 0, 16, 16)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_brb1u"]
+texture = ExtResource("4_y4vil")
+margin_left = 6.0
+margin_top = 4.0
+margin_right = 6.0
+margin_bottom = 4.0
+region_rect = Rect2(0, 0, 18, 16)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jg2gx"]
+texture = ExtResource("5_1q7hu")
+margin_left = 6.0
+margin_top = 6.0
+margin_right = 6.0
+margin_bottom = 6.0
+region_rect = Rect2(0, 0, 18, 16)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_u6fle"]
+texture = ExtResource("15_ee2j0")
+margin_left = 12.0
+margin_right = 12.0
+expand_margin_left = 12.0
+expand_margin_right = 12.0
+region_rect = Rect2(0, 0, 32, 15)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jwg4o"]
+texture = ExtResource("16_qr78o")
+margin_left = 12.0
+margin_right = 12.0
+expand_margin_left = 12.0
+expand_margin_right = 12.0
+region_rect = Rect2(0, 0, 32, 15)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fgf4n"]
+texture = ExtResource("17_jhdnk")
+margin_left = 12.0
+margin_right = 12.0
+expand_margin_left = 12.0
+expand_margin_right = 12.0
+region_rect = Rect2(0, 0, 32, 15)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kdsma"]
+texture = ExtResource("18_gw8pf")
+margin_left = 12.0
+margin_right = 12.0
+region_rect = Rect2(0, 0, 32, 15)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mg0t5"]
+bg_color = Color(0.988235, 0.988235, 0.988235, 0.317647)
+border_width_left = 2
+border_width_top = 7
+border_width_bottom = 6
+border_color = Color(0.8, 0.8, 0.8, 0)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u811t"]
+bg_color = Color(0.243137, 0.662745, 0.980392, 0.682353)
+border_width_left = 2
+border_width_top = 7
+border_width_bottom = 6
+border_color = Color(0.8, 0.8, 0.8, 0)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ua7b6"]
+texture = ExtResource("17_4xlau")
+margin_left = 8.0
+margin_top = 12.0
+margin_right = 8.0
+margin_bottom = 12.0
+region_rect = Rect2(0, 0, 16, 19)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_87c43"]
+texture = ExtResource("16_tydw3")
+margin_left = 6.0
+margin_top = 4.0
+margin_right = 6.0
+margin_bottom = 4.0
+region_rect = Rect2(0, 0, 16, 16)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xo5sn"]
+texture = ExtResource("17_anr16")
+margin_left = 6.0
+margin_top = 4.0
+margin_right = 6.0
+margin_bottom = 4.0
+region_rect = Rect2(0, 0, 16, 16)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1nngl"]
+texture = ExtResource("18_7ly1t")
+margin_left = 6.0
+margin_top = 4.0
+margin_right = 6.0
+margin_bottom = 4.0
+region_rect = Rect2(0, 0, 16, 16)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ql8pm"]
+texture = ExtResource("32_sgp54")
+margin_left = 12.0
+margin_top = 8.0
+margin_right = 12.0
+margin_bottom = 12.0
+region_rect = Rect2(0, 0, 66, 300)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j8rk6"]
+content_margin_left = 6.0
+content_margin_top = 4.0
+content_margin_right = 8.0
+content_margin_bottom = 6.0
+bg_color = Color(0.1764, 0.1764, 0.18, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.0901961, 0.0941176, 0.0980392, 1)
+border_blend = true
+shadow_size = 2
+shadow_offset = Vector2(2, 2)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3syxj"]
+texture = ExtResource("27_rsxdk")
+margin_left = 6.0
+margin_top = 4.0
+margin_right = 6.0
+margin_bottom = 4.0
+region_rect = Rect2(0, 0, 10, 21)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gaqoq"]
+texture = ExtResource("28_s2fkj")
+margin_left = 6.0
+margin_top = 4.0
+margin_right = 6.0
+margin_bottom = 4.0
+region_rect = Rect2(0, 0, 8, 30)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_axoy8"]
+texture = ExtResource("32_sgp54")
+margin_left = 12.0
+margin_top = 8.0
+margin_right = 12.0
+margin_bottom = 12.0
+region_rect = Rect2(0, 0, 66, 300)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qnq6q"]
+texture = ExtResource("29_n45su")
+margin_left = 6.0
+margin_top = 6.0
+margin_right = 6.0
+margin_bottom = 1.0
+expand_margin_bottom = 5.0
+region_rect = Rect2(0, 0, 30, 30)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cn0re"]
+texture = ExtResource("30_4gfd4")
+margin_left = 6.0
+margin_top = 6.0
+margin_right = 6.0
+margin_bottom = 1.0
+region_rect = Rect2(0, 0, 30, 30)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3xi61"]
+bg_color = Color(0.1056, 0.1056, 0.11, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mohxy"]
+texture = ExtResource("16_tydw3")
+margin_left = 6.0
+margin_top = 4.0
+margin_right = 6.0
+margin_bottom = 4.0
+region_rect = Rect2(0, 0, 16, 16)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_iucd4"]
+texture = ExtResource("17_anr16")
+margin_left = 6.0
+margin_top = 4.0
+margin_right = 6.0
+margin_bottom = 4.0
+region_rect = Rect2(0, 0, 16, 16)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xd7k4"]
+texture = ExtResource("18_7ly1t")
+margin_left = 6.0
+margin_top = 4.0
+margin_right = 6.0
+margin_bottom = 4.0
+region_rect = Rect2(0, 0, 16, 16)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_se3cy"]
+texture = ExtResource("32_f0xpv")
+margin_top = 12.0
+margin_bottom = 12.0
+expand_margin_top = 12.0
+expand_margin_bottom = 12.0
+region_rect = Rect2(0, 0, 15, 32)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_d1df7"]
+texture = ExtResource("33_i1wok")
+margin_top = 12.0
+margin_bottom = 12.0
+expand_margin_top = 12.0
+expand_margin_bottom = 12.0
+region_rect = Rect2(0, 0, 15, 32)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3ed1s"]
+texture = ExtResource("34_egico")
+margin_top = 12.0
+margin_bottom = 12.0
+expand_margin_top = 12.0
+expand_margin_bottom = 12.0
+region_rect = Rect2(0, 0, 15, 32)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qybu3"]
+texture = ExtResource("32_wsdu1")
+margin_top = 12.0
+margin_bottom = 12.0
+region_rect = Rect2(0, 0, 15, 32)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xc6vi"]
+bg_color = Color(0.988235, 0.988235, 0.988235, 0.317647)
+border_width_left = 7
+border_width_top = 7
+border_width_right = 6
+border_width_bottom = 3
+border_color = Color(0.8, 0.8, 0.8, 0)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jtxf5"]
+bg_color = Color(0.25098, 0.501961, 0.984314, 1)
+border_width_left = 7
+border_width_top = 7
+border_width_right = 6
+border_width_bottom = 3
+border_color = Color(0.8, 0.8, 0.8, 0)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_m5yyq"]
+texture = ExtResource("32_8isqb")
+margin_left = 12.0
+margin_top = 8.0
+margin_right = 12.0
+margin_bottom = 8.0
+region_rect = Rect2(0, 0, 19, 16)
+
+[resource]
+Button/styles/disabled = SubResource("StyleBoxTexture_ycyyd")
+Button/styles/focus = SubResource("StyleBoxTexture_ik8pt")
+Button/styles/hover = SubResource("StyleBoxTexture_5ojyu")
+Button/styles/normal = SubResource("StyleBoxTexture_brb1u")
+Button/styles/pressed = SubResource("StyleBoxTexture_jg2gx")
+CheckBox/icons/checked = ExtResource("6_5o1g7")
+CheckBox/icons/checked_disabled = ExtResource("7_rbdma")
+CheckBox/icons/radio_checked = ExtResource("8_61j3r")
+CheckBox/icons/radio_checked_disabled = ExtResource("9_tm32d")
+CheckBox/icons/radio_unchecked = ExtResource("10_8smsu")
+CheckBox/icons/radio_unchecked_disabled = ExtResource("9_tm32d")
+CheckBox/icons/unchecked = ExtResource("11_mvgje")
+CheckBox/icons/unchecked_disabled = ExtResource("12_q2gq1")
+CheckButton/icons/checked = ExtResource("14_81q27")
+CheckButton/icons/unchecked = ExtResource("15_dv20r")
+HScrollBar/styles/grabber = SubResource("StyleBoxTexture_u6fle")
+HScrollBar/styles/grabber_highlight = SubResource("StyleBoxTexture_jwg4o")
+HScrollBar/styles/grabber_pressed = SubResource("StyleBoxTexture_fgf4n")
+HScrollBar/styles/scroll = SubResource("StyleBoxTexture_kdsma")
+HSlider/icons/grabber = ExtResource("15_2aajd")
+HSlider/icons/grabber_highlight = ExtResource("16_v5735")
+HSlider/styles/grabber_area = SubResource("StyleBoxFlat_mg0t5")
+HSlider/styles/grabber_area_highlight = SubResource("StyleBoxFlat_u811t")
+HSlider/styles/slider = SubResource("StyleBoxTexture_ua7b6")
+HSplitContainer/icons/grabber = ExtResource("18_7nwlj")
+LineEdit/styles/focus = SubResource("StyleBoxTexture_87c43")
+LineEdit/styles/normal = SubResource("StyleBoxTexture_xo5sn")
+LineEdit/styles/read_only = SubResource("StyleBoxTexture_1nngl")
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_ql8pm")
+PopupMenu/icons/checked = ExtResource("6_5o1g7")
+PopupMenu/icons/checked_disabled = ExtResource("7_rbdma")
+PopupMenu/icons/radio_checked = ExtResource("8_61j3r")
+PopupMenu/icons/radio_checked_disabled = ExtResource("23_et4fa")
+PopupMenu/icons/radio_unchecked = ExtResource("10_8smsu")
+PopupMenu/icons/radio_unchecked_disabled = ExtResource("24_p5cg7")
+PopupMenu/icons/submenu = ExtResource("25_xljca")
+PopupMenu/icons/submenu_mirrored = ExtResource("26_i8xhe")
+PopupMenu/icons/unchecked = ExtResource("11_mvgje")
+PopupMenu/icons/unchecked_disabled = ExtResource("12_q2gq1")
+PopupMenu/styles/panel = SubResource("StyleBoxFlat_j8rk6")
+ProgressBar/styles/background = SubResource("StyleBoxTexture_3syxj")
+ProgressBar/styles/fill = SubResource("StyleBoxTexture_gaqoq")
+TabContainer/constants/side_margin = 11
+TabContainer/styles/panel = SubResource("StyleBoxTexture_axoy8")
+TabContainer/styles/tab_selected = SubResource("StyleBoxTexture_qnq6q")
+TabContainer/styles/tab_unselected = SubResource("StyleBoxTexture_cn0re")
+TabContainer/styles/tabbar_background = SubResource("StyleBoxFlat_3xi61")
+TextEdit/styles/focus = SubResource("StyleBoxTexture_mohxy")
+TextEdit/styles/normal = SubResource("StyleBoxTexture_iucd4")
+TextEdit/styles/read_only = SubResource("StyleBoxTexture_xd7k4")
+Tree/icons/checked = ExtResource("6_5o1g7")
+Tree/icons/indeterminate = ExtResource("31_2fowq")
+Tree/icons/unchecked = ExtResource("11_mvgje")
+VScrollBar/styles/grabber = SubResource("StyleBoxTexture_se3cy")
+VScrollBar/styles/grabber_highlight = SubResource("StyleBoxTexture_d1df7")
+VScrollBar/styles/grabber_pressed = SubResource("StyleBoxTexture_3ed1s")
+VScrollBar/styles/scroll = SubResource("StyleBoxTexture_qybu3")
+VSlider/icons/grabber = ExtResource("32_pjgx8")
+VSlider/icons/grabber_highlight = ExtResource("33_cf0pt")
+VSlider/styles/grabber_area = SubResource("StyleBoxFlat_xc6vi")
+VSlider/styles/grabber_area_highlight = SubResource("StyleBoxFlat_jtxf5")
+VSlider/styles/slider = SubResource("StyleBoxTexture_m5yyq")
+VSplitContainer/icons/grabber = ExtResource("35_k7lhb")
