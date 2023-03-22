@@ -7,8 +7,9 @@ extends TabContainer
 @export var generate_now:bool = false:
 	set(new_value):
 		if new_value == true:
-			generate()
 			print("generating...")
+			generate()
+			print("finished!!")
 
 
 func generate():
@@ -26,6 +27,7 @@ func generate():
 		var icon_type:String = icon_path[0]
 		var icon_name:String = icon_path[1]
 		
+		printt("laundering1 ",icon_type,icon_name)
 		new_theme.set_icon(icon_name,icon_type, launder_texture(theme.get_icon(icon_name,icon_type)) )
 	# duplicating icon end
 	
@@ -45,6 +47,7 @@ func generate():
 		var stylebox:StyleBoxTexture = theme.get_stylebox(style_name,style_type).duplicate(true)
 		stylebox.texture = launder_texture(stylebox.texture)
 		
+		print("laundering2 ",style_type,style_name)
 		new_theme.set_stylebox(style_name,style_type,stylebox)
 	# duplicating texture style end
 	
@@ -57,8 +60,12 @@ func launder_texture(texture:Texture2D) -> Texture2D:
 	var image_width := image.get_width()
 	var image_height := image.get_height()
 	
+	# error??
+	var image_mipmap := image.has_mipmaps()
+	var image_format := image.get_format()
+	
 	var new_image := Image.new()
-	new_image.set_data(image_width,image_height,false,Image.FORMAT_RGBA8,image_data)
+	new_image.set_data(image_width,image_height,image_mipmap,image_format,image_data)
 	
 	var new_texture := ImageTexture.create_from_image(new_image)
 	return new_texture

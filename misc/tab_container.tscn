@@ -1,0 +1,76 @@
+[gd_scene load_steps=4 format=3 uid="uid://dmn8jrgvoj7mn"]
+
+[ext_resource type="Theme" uid="uid://c1cc7uj1rrsvj" path="res://non-flat.tres" id="1_ouf2v"]
+[ext_resource type="Script" path="res://misc/TabContainer.gd" id="2_53f2e"]
+[ext_resource type="Texture2D" uid="uid://d2onenwpn1vap" path="res://misc/icon.svg" id="3_u0yh7"]
+
+[node name="TabContainer" type="TabContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_ouf2v")
+script = ExtResource("2_53f2e")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="CheckBox" type="CheckBox" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "astarstarst"
+icon = ExtResource("3_u0yh7")
+expand_icon = true
+
+[node name="Option" type="OptionButton" parent="VBoxContainer"]
+layout_mode = 2
+expand_icon = true
+
+[node name="Button3" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 10
+
+[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer/MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "arstarst"
+
+[node name="TabBar" type="TabBar" parent="VBoxContainer"]
+layout_mode = 2
+tab_close_display_policy = 2
+tab_count = 2
+tab_0/title = "arstarst"
+tab_1/title = "BBrstat"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+visible = false
+layout_mode = 2
+
+[node name="CheckBox" type="CheckBox" parent="VBoxContainer2"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="VBoxContainer2"]
+layout_mode = 2
+
+[node name="Button2" type="Button" parent="VBoxContainer2"]
+layout_mode = 2
+text = "astarstarst"
+icon = ExtResource("3_u0yh7")
+expand_icon = true
+
+[node name="Option" type="OptionButton" parent="VBoxContainer2"]
+layout_mode = 2
+expand_icon = true
+
+[node name="Button3" type="Button" parent="VBoxContainer2"]
+layout_mode = 2

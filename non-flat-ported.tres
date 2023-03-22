@@ -46,44 +46,72 @@
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ycyyd"]
 texture = ExtResource("1_510y8")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 4.0
 region_rect = Rect2(0, 0, 18, 16)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ik8pt"]
 texture = ExtResource("2_k7ppl")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 4.0
 region_rect = Rect2(0, 0, 18, 17)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5ojyu"]
 texture = ExtResource("3_s88r5")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 4.0
 region_rect = Rect2(0, 0, 16, 16)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_brb1u"]
 texture = ExtResource("4_y4vil")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 4.0
 region_rect = Rect2(0, 0, 18, 16)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jg2gx"]
 texture = ExtResource("5_1q7hu")
+texture_margin_left = 6.0
+texture_margin_top = 6.0
+texture_margin_right = 6.0
+texture_margin_bottom = 6.0
 region_rect = Rect2(0, 0, 18, 16)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_u6fle"]
 texture = ExtResource("15_ee2j0")
+texture_margin_left = 12.0
+texture_margin_right = 12.0
 expand_margin_left = 12.0
 expand_margin_right = 12.0
 region_rect = Rect2(0, 0, 32, 15)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jwg4o"]
 texture = ExtResource("16_qr78o")
+texture_margin_left = 12.0
+texture_margin_right = 12.0
 expand_margin_left = 12.0
 expand_margin_right = 12.0
 region_rect = Rect2(0, 0, 32, 15)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fgf4n"]
 texture = ExtResource("17_jhdnk")
+texture_margin_left = 12.0
+texture_margin_right = 12.0
 expand_margin_left = 12.0
 expand_margin_right = 12.0
 region_rect = Rect2(0, 0, 32, 15)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kdsma"]
 texture = ExtResource("18_gw8pf")
+texture_margin_left = 12.0
+texture_margin_right = 12.0
 region_rect = Rect2(0, 0, 32, 15)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mg0t5"]
@@ -110,22 +138,42 @@ corner_radius_bottom_left = 5
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ua7b6"]
 texture = ExtResource("17_4xlau")
+texture_margin_left = 8.0
+texture_margin_top = 12.0
+texture_margin_right = 8.0
+texture_margin_bottom = 12.0
 region_rect = Rect2(0, 0, 16, 19)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_87c43"]
 texture = ExtResource("16_tydw3")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 4.0
 region_rect = Rect2(0, 0, 16, 16)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xo5sn"]
 texture = ExtResource("17_anr16")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 4.0
 region_rect = Rect2(0, 0, 16, 16)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1nngl"]
 texture = ExtResource("18_7ly1t")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 4.0
 region_rect = Rect2(0, 0, 16, 16)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ql8pm"]
 texture = ExtResource("32_sgp54")
+texture_margin_left = 12.0
+texture_margin_top = 8.0
+texture_margin_right = 12.0
+texture_margin_bottom = 12.0
 region_rect = Rect2(0, 0, 66, 300)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fyacm"]
@@ -159,23 +207,43 @@ shadow_offset = Vector2(2, 2)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3syxj"]
 texture = ExtResource("27_rsxdk")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 4.0
 region_rect = Rect2(0, 0, 10, 21)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gaqoq"]
 texture = ExtResource("28_s2fkj")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 4.0
 region_rect = Rect2(0, 0, 8, 30)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_axoy8"]
 texture = ExtResource("32_sgp54")
+texture_margin_left = 12.0
+texture_margin_top = 8.0
+texture_margin_right = 12.0
+texture_margin_bottom = 12.0
 region_rect = Rect2(0, 0, 66, 300)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qnq6q"]
 texture = ExtResource("29_n45su")
+texture_margin_left = 6.0
+texture_margin_top = 6.0
+texture_margin_right = 6.0
+texture_margin_bottom = 1.0
 expand_margin_bottom = 5.0
 region_rect = Rect2(0, 0, 30, 30)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cn0re"]
 texture = ExtResource("30_4gfd4")
+texture_margin_left = 6.0
+texture_margin_top = 6.0
+texture_margin_right = 6.0
+texture_margin_bottom = 1.0
 region_rect = Rect2(0, 0, 30, 30)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3xi61"]
@@ -183,36 +251,56 @@ bg_color = Color(0.1056, 0.1056, 0.11, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mohxy"]
 texture = ExtResource("16_tydw3")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 4.0
 region_rect = Rect2(0, 0, 16, 16)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_iucd4"]
 texture = ExtResource("17_anr16")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 4.0
 region_rect = Rect2(0, 0, 16, 16)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xd7k4"]
 texture = ExtResource("18_7ly1t")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 4.0
 region_rect = Rect2(0, 0, 16, 16)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_se3cy"]
 texture = ExtResource("32_f0xpv")
+texture_margin_top = 12.0
+texture_margin_bottom = 12.0
 expand_margin_top = 12.0
 expand_margin_bottom = 12.0
 region_rect = Rect2(0, 0, 15, 32)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_d1df7"]
 texture = ExtResource("33_i1wok")
+texture_margin_top = 12.0
+texture_margin_bottom = 12.0
 expand_margin_top = 12.0
 expand_margin_bottom = 12.0
 region_rect = Rect2(0, 0, 15, 32)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3ed1s"]
 texture = ExtResource("34_egico")
+texture_margin_top = 12.0
+texture_margin_bottom = 12.0
 expand_margin_top = 12.0
 expand_margin_bottom = 12.0
 region_rect = Rect2(0, 0, 15, 32)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qybu3"]
 texture = ExtResource("32_wsdu1")
+texture_margin_top = 12.0
+texture_margin_bottom = 12.0
 region_rect = Rect2(0, 0, 15, 32)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xc6vi"]
@@ -241,6 +329,10 @@ corner_radius_bottom_left = 5
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_m5yyq"]
 texture = ExtResource("32_8isqb")
+texture_margin_left = 12.0
+texture_margin_top = 8.0
+texture_margin_right = 12.0
+texture_margin_bottom = 8.0
 region_rect = Rect2(0, 0, 19, 16)
 
 [resource]
