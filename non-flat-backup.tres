@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=136 format=3 uid="uid://c2opkk7obfit5"]
+[gd_resource type="Theme" load_steps=137 format=3 uid="uid://c2opkk7obfit5"]
 
 [ext_resource type="Texture2D" uid="uid://bb172hqq61jkl" path="res://assets/Vertex-Dark/gtk-2.0/Buttons/button-insensitive.png" id="1_332sb"]
 [ext_resource type="Texture2D" uid="uid://dlsutr067y44i" path="res://assets/Vertex/gtk-3.0/borders/button-focused-border-dark.png" id="2_kcdgm"]
@@ -296,12 +296,18 @@ corner_radius_bottom_left = 2
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_yy0io"]
 texture = ExtResource("31_xtcvs")
-texture_margin_left = 14.0
+texture_margin_left = 6.0
 texture_margin_top = 4.0
-texture_margin_right = 14.0
+texture_margin_right = 6.0
 texture_margin_bottom = 4.0
-expand_margin_left = 11.0
-expand_margin_right = 11.0
+region_rect = Rect2(0, 0, 14, 29)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qjifn"]
+texture = ExtResource("31_xtcvs")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 4.0
 region_rect = Rect2(0, 0, 14, 29)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_87c43"]
@@ -425,18 +431,18 @@ region_rect = Rect2(0, 0, 34, 35)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_w8irn"]
 texture = ExtResource("41_ekw04")
-texture_margin_left = 4.0
-texture_margin_top = 4.0
-texture_margin_right = 4.0
-texture_margin_bottom = 8.0
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 6.0
 region_rect = Rect2(0, 0, 54, 288)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_y5nwb"]
 texture = ExtResource("41_ekw04")
-texture_margin_left = 4.0
-texture_margin_top = 4.0
-texture_margin_right = 4.0
-texture_margin_bottom = 4.0
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 6.0
 region_rect = Rect2(0, 0, 54, 288)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3syxj"]
@@ -730,9 +736,7 @@ Button/colors/font_hover_pressed_color = Color(1, 1, 1, 1)
 Button/colors/font_pressed_color = Color(1, 1, 1, 1)
 Button/colors/icon_focus_color = Color(1, 1, 1, 1)
 Button/colors/icon_hover_color = Color(1, 1, 1, 1)
-Button/colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
 Button/colors/icon_normal_color = Color(1, 1, 1, 1)
-Button/colors/icon_pressed_color = Color(1, 1, 1, 1)
 Button/constants/h_separation = 8
 Button/styles/disabled = SubResource("StyleBoxTexture_ycyyd")
 Button/styles/focus = SubResource("StyleBoxTexture_ik8pt")
@@ -780,6 +784,7 @@ InspectorActionButton/styles/pressed = SubResource("StyleBoxTexture_hoaet")
 ItemList/styles/focus = SubResource("StyleBoxFlat_mmik1")
 ItemList/styles/panel = SubResource("StyleBoxFlat_kq3wf")
 ItemList/styles/selected = SubResource("StyleBoxTexture_yy0io")
+ItemList/styles/selected_focus = SubResource("StyleBoxTexture_qjifn")
 LineEdit/styles/focus = SubResource("StyleBoxTexture_87c43")
 LineEdit/styles/normal = SubResource("StyleBoxTexture_xo5sn")
 LineEdit/styles/read_only = SubResource("StyleBoxTexture_1nngl")

@@ -1,8 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://cangv2lqw83sh"]
+[gd_scene load_steps=7 format=3 uid="uid://cangv2lqw83sh"]
 
 [ext_resource type="PackedScene" uid="uid://dmn8jrgvoj7mn" path="res://misc/tab_container.tscn" id="1_jjoar"]
 [ext_resource type="Theme" uid="uid://c2opkk7obfit5" path="res://non-flat-backup.tres" id="2_bb0xr"]
-[ext_resource type="Theme" uid="uid://dmxjeoua52d27" path="res://generateed/vertex_4.0.res" id="3_43xjs"]
 [ext_resource type="Texture2D" uid="uid://bhtok3swdtc0q" path="res://assets/d7s7ycx-ee49e03e-e328-4f53-9616-dfc68a523bf9.jpg" id="3_i3enn"]
 
 [sub_resource type="Animation" id="Animation_wo237"]
@@ -30,7 +29,6 @@ layout_mode = 1
 offset_left = -2.0
 offset_right = -2.0
 theme = ExtResource("2_bb0xr")
-generated_theme = ExtResource("3_43xjs")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
